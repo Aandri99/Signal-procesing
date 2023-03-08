@@ -98,7 +98,7 @@ Fig. 7: Second channel configuration
 
 Configure the trigger for a single shot acquisition as shown in Fig. 8.
 
-.. image:: image8.png
+.. image:: media/image8.png
    :name: schematic of the circuit
    :align: center
 
@@ -253,10 +253,3 @@ https://redpitaya.readthedocs.io/en/latest/appsFeatures/apps-featured/spectrum/s
 
 dB scale: 
 https://en.wikipedia.org/wiki/Decibel
-
-.. image:: media/image9.png
-      :name: schematic of the circuit
-   :align: center
-.. image:: media/image10.png
-      :name: schematic of the circuit
-   :align: center
