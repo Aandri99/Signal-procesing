@@ -148,7 +148,7 @@ Comparing Waveforms in the Time domain
 Configure the Red Pitaya for a Loopback configuration (SMA cables tied between the outputs and inputs to the Red Pitaya) as shown in Fig. 1.
 
 Reference Case: Sine and Cosine
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+------------------------
 
 Set OUT1 and OUT2 to be sines of the same frequency of 1000Hz, with equal amplitude. Set OUT2 to have a phase of 90 degrees.
 
@@ -165,7 +165,7 @@ Fig. 9: Reference waveforms
 3. (Take Home) Drop the amplitude of OUT2 to 0.45 V (0.5x amplitude). How much does the waveform’s Peak-to-Peak value change by?
 
 Sine and Square
-~~~~~~~~~~~~~~~
+------------------------
 
 With the same setup as ‎‎2.5.1, change OUT1 to produce a SQUARE, as shown in Fig. 10.
 
@@ -190,7 +190,7 @@ Fig. 10: OUT1 Configured for SQUARE output
    c. Phase:
 
 Sine and Sawtooth
-~~~~~~~~~~~~~~~~~
+--------------------
 
 With the same setup as ‎‎2.5.1, change OUT1 to produce a SAWU, as shown in Fig. 11.
 
@@ -214,7 +214,7 @@ Fig. 11: OUT1 Configured for SAWU output
    c. Phase:
 
 (Take Home) Sine and Pulse Width Modulated (PWM) output
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+----------------------------
 
 With the same setup as ‎‎2.5.1, change OUT1 to produce a PWM with a 10% duty cycle, as shown in Fig. 12.
 
@@ -247,7 +247,7 @@ Configure the Red Pitaya for a Loopback configuration (SMA cables tied between t
 Open the DFT Spectrum Analyzer application. **This portion is equivalent to viewing all the waveforms in part ‎2.5 in the Frequency Domain.**
 
 Reference Case: Sine and Cosine
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+--------------------------
 
 Set OUT1 and OUT2 to be sines of the same frequency of 1000Hz, with equal amplitude. Set OUT2 to have a phase of 90 degrees, as shown in Fig. 9.
 
@@ -260,7 +260,7 @@ Set OUT1 and OUT2 to be sines of the same frequency of 1000Hz, with equal amplit
 
 
 Sine and Square
-~~~~~~~~~~~~~~~
+-------------------
 
 With the same setup as ‎‎2.5.1, change OUT1 to produce a SQUARE, as shown in Fig. 10.
 
@@ -277,7 +277,7 @@ With the same setup as ‎‎2.5.1, change OUT1 to produce a SQUARE, as shown in
    c. Phase:
 
 Sine and Sawtooth
-~~~~~~~~~~~~~~~~~
+---------------------
 
 With the same setup as ‎‎2.5.1, change OUT1 to produce a SAWU, as shown in Fig. 11.
 
@@ -295,7 +295,7 @@ With the same setup as ‎‎2.5.1, change OUT1 to produce a SAWU, as shown in F
 
 
 (Take Home) Sine and Pulse Width Modulated (PWM) output
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+--------------------------
 
 With the same setup as ‎‎2.5.1, change OUT1 to produce a PWM, as shown in Fig. 12.
 
