@@ -1,312 +1,133 @@
-Using the Red Pitaya for measuring properties of periodic waveforms
-============================================================================
+Full wave rectifiers
+===================
 
-Goals of this Lab
--------------------
+Introduction
+-----------------
+The national electrical grid provides an abundance of electricity to users in the form of alternating current (AC) at 110 to 230 volts and 50 or 60 Hz, depending on the region. However, what if someone requires a continuous supply of direct current (DC) voltage from this source? This course will cover full wave rectifiers, which are commonly used in the industry for converting AC to DC.
 
-1. Demonstrate ability to use Oscilloscope, Signal Generator, and Spectrum Analyzer capabilities of Red Pitaya through GUI.
+.. raw:: html
 
-2. Configure Red pitaya to receive external inputs.
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+        <iframe src="https://www.youtube.com/embed/XWAzxsCwW9g" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+    </div>
 
-3. Perform measurements on a multitude of periodic waveforms
-
-Tasks / Measurements
-
---------------------
-Configure the Red Pitaya for a Loopback configuration (SMA cables tied between the outputs and inputs to the Red Pitaya) as shown in Fig. 1.
-
-.. image:: media/image1.jpeg
-   :name: schematic of the circuit
-   :align: center
-
-Fig. 1: Red Pitaya in Loopback Configuration
-
-Measure the Period of a waveform – Time Domain
------------------------
-Open the Oscilloscope & function Generator Application.
-
-Configure the output of the red pitaya for a 1500Hz Sinusoid as shown in Fig. 2.
-
-.. image:: vertopal_731800f41f7745ee952b5f4e35d32883/media/image2.png
-   :width: 1.23547in
-   :height: 2in
-
-Fig. 2: OUT1 Configuration for measuring period/frequency
-
-Configure the trigger for a negative edge trigger with zero level and normal trigger mode as shown in Fig. 3.
-
-.. image:: vertopal_731800f41f7745ee952b5f4e35d32883/media/image3.png
-   :width: 1.11555in
-   :height: 2in
-
-Fig. 3: Trigger Configuration
-
-Enable OUT1. You should now see a figure close to the following
-
-.. image:: vertopal_731800f41f7745ee952b5f4e35d32883/media/image4.png
-   :width: 3.69297in
-   :height: 2.75in
-
-Fig. 4: Target output for 1500 Hz Sinusoid with negative edge triggering
-
-To measure the period,
-
-1. Select the “Cursor” box, and enable “X1”, “X2” options.
-
-2. Drag each cursor to a common feature of the waveform (peak to peak, trough to trough)
-
-3. Read off spacing between cursors. This is an approximate measure of the period
-
-Period can also be measured by the red pitaya itself, under the meas command by selecting “Period” and “IN2”, and finally selecting “Done”.
-This is shown in Fig. 5.
-
-.. image:: vertopal_731800f41f7745ee952b5f4e35d32883/media/image5.png
-   :width: 3.51721in
-   :height: 2.5in
-
-Fig. 5: Measured waveform vs Cursor measurement
-
-Measure the Fundamental Frequency of a waveform – Time Domain
--------------------------------------------------------------
-
-To measure the fundamental frequency of a waveform, bring up the X1,X2 cursors, and select a single period of the waveform. From there one can
-use the relation:
-
-.. math::
-   \begin{matrix}
-   f = \frac{1}{T}\ \#(1) \\
-   \end{matrix}
-to estimate the frequency of the waveform.
-
-Once again, the Red pitaya can also calculate this by selecting the “FREQ” measurement option in the “Meas” options as shown below.
-
-.. image:: vertopal_731800f41f7745ee952b5f4e35d32883/media/image6.png
-   :width: 3.86893in
-   :height: 2.75in
-
-Fig. 6: Frequency Measurement added
-
-Measure the Phase between two waveforms – Time Domain
------------------------------------------------------
-
-Select output 2, and select the second output to be a 1500 Hz sine wave with a 45 degree phase shift
-
-.. image:: vertopal_731800f41f7745ee952b5f4e35d32883/media/image7.png
-   :width: 1.19879in
-   :height: 2in
-
-Fig. 7: Second channel configuration
-
-Configure the trigger for a single shot acquisition as shown in Fig. 8.
-
-.. image:: vertopal_731800f41f7745ee952b5f4e35d32883/media/image8.png
-   :width: 1.12857in
-   :height: 2in
-
-Fig. 8: Trigger configuration
-
-Acquire a single capture, and measure the frequency and period of each waveform as previously described. Note that for the second channel, you
-may want to specify your cursors to track channel 2 in the cursor menu. To measure the Phase between waveforms, simply calculate the difference
-in time between two corresponding peaks between waveforms, and convert this to their corresponding difference in angular frequency. This can be
-calculated for signals of equal frequency with the relation
-
-.. math::
-   \begin{matrix}
-   \phi = 2\pi f\Delta t\ \ \ (rad)\ \#(2) \\
-   \end{matrix}
-1. Analytically calculate the period of either waveform, and the time delay expected for the configured 45 degree phase shift between waveforms.
-
-2. Set the output frequency of a OUT1 to 1000 Hz and trigger to normal or auto. What is the behavior that is observed? Comment as to the origin 
-   of the behavior, and a potential fix for the behavior. (hint,consider the greatest common divisor between the two frequencies)
-
-3. (Take home) Repeat part 2, but for the frequency values of 3000Hz, and 1531Hz. What behavior is displayed here for each frequency? What are 
-   some potential ways to work around this problem? (hint, consider the greatest common divisor between the two frequencies, and
-   alternative trigger modes)
-
-Measure the Spectrum of the waveform - Frequency Domain
--------------------------------------------------------
-
-Open the DFT Spectrum Analyzer Application.
-
-Recreate the waveform employed in ‎2.1. For convenience, this is reprinted below:
-
-1. Configure the output of the red pitaya for a 1500Hz Sinusoid as shown
-   in Fig. 2.
-
-Set the Span of the spectrum analyzer to 6.5 kHz.
-
-Observe the location of the peak(s), and infer what this implies about the sinusoid’s fundamental frequency and its purity (harmonic content). Mention 
-the relative strength between the various peaks in dB and in linear scales, knowing the relation between dB and linear scales in dBm is given by:
-
-.. math::
-   \begin{matrix}
-   P_{dBm} = 10\log_{10}\frac{P_{lin}}{1mW}\ \#(3) \\
-   \end{matrix}
-Comparing Waveforms in the Time domain
+What is a full bridge rectifier?
 --------------------------------------
+In the last course we covered a half wave rectifier – just a simple diode. When AC voltage is applied to its anode, cathode will conduct only during the positive halfwave. Resulting waveform is far from DC, but it is always positive. If averaged the output, we would get a DC voltage source. This method has many significant drawbacks. Most of them originate from the fact, that diode is in conducting mode for only about half the time, but we won’t go into details.
+Finding a circuit, that will conduct voltage in positive direction would alleviate the problem. Conveniently such circuit exists and is depicted below. We call it a full wave rectifier.
 
-Configure the Red Pitaya for a Loopback configuration (SMA cables tied between the outputs and inputs to the Red Pitaya) as shown in Fig. 1.
+.. image:: img/9_full_wave_rectifier_schematic.png
+	:name: full wave rectifier schematic
+	:align: center
+A full wave rectifier is composed of two pairs of diodes that ensure voltage 'flows' in the correct direction. It converts AC voltage to DC voltage. To comprehend its operation, it is useful to examine what happens when the applied voltage is positive and negative. For the purpose of analysis, we can assume that diodes conduct electricity when the current flows from the anode to the cathode.
 
-Reference Case: Sine and Cosine
-------------------------
+.. image:: img/9_full_wave_rectifier_explanation.png
+	:name: full wave rectifier explanation
+	:align: center
 
-Set OUT1 and OUT2 to be sines of the same frequency of 1000Hz, with equal amplitude. Set OUT2 to have a phase of 90 degrees.
+If we apply a signal to an ideal full wave rectifier, its output will be an equivalent of mathematical function out=abs(in). To illustrate that with a sine wave input where black is input and red is rectified output:
 
-|Graphical user interface Description automatically generated|\ |A screenshot of a phone Description automatically generated with medium
-confidence|
+.. image:: img/9_rectifier_output.png
+	:name: expected output
+	:align: center
 
-Fig. 9: Reference waveforms
+The experiment
+----------------------
+Without further ado, let’s build a full bridge rectifier and try it out. Let Red Pitaya output a +-1 V sine wave for an input signal, and connect one probe to the input and one to the positive output as depicted below. Note that I used the alligator clip on output signal this time.
 
-1. Capture a screen shot of the resulting waveforms. Comment on any visible similarities or differences.
+.. image:: img/9_without_transformer.jpg
+	:name: experiment 1
+	:align: center
 
-2. Try varying amplitudes/frequencies/phases of both channels and comment on the overall effects each variable does as observed in the
-   time domain. Capture a screen capture that demonstrates each observable change, and clearly label what change was done between each.
+Aside from a bunch of seemingly useless wires to the left, which I call foreshadowing, I added a 1 kOhm load resistor to the output. I will let you experiment what happens without one. Anyway, the signal output is such:
 
-3. (Take Home) Drop the amplitude of OUT2 to 0.45 V (0.5x amplitude). How much does the waveform’s Peak-to-Peak value change by?
+.. image:: img/9_rectifier_screencap.png
+	:name: experiment 1 screncap
+	:align: center
 
-Sine and Square
-------------------------
+No, this is not a wrong screencap, this waveform is correct. Correct but not desired. First let’s point out that waveform resembles a half wave rectifier. Second let’s discuss the voltage drop. A real diode rectifier will always have some voltage drop. The exact value can be estimated. You may recall from the previous course, that diodes usually have 0.7 V drop. That is the case for the diodes I used as well. What you can see from the screencap is that the voltage drop isn’t 0.7 V, it is closer to 0.6 V. You may say this is nothing special, 0.6 is very close to 0.7. Yes, I agree, but since current flows through two diodes, voltage drop should be 1.4 V. What’s up with that?
+The explanation is very simple. Red Pitaya can only output +-1 V signal, which is less than a nominal voltage drop on a pair of diodes. This means that diodes are operating below the point where we can simplify their characteristic to a simple voltage drop, which explains the unexpected voltage drop.
+And what explains the half wave instead of full wave rectifier characteristic? This has nothing to do with diodes, and all to do with Red Pitaya. By connecting the alligator clip to the negative output of a full wave rectifier, we effectively shorted half of the rectifier, ruining the characteristics. Resulting circuit looks like this:
 
-With the same setup as ‎‎2.5.1, change OUT1 to produce a SQUARE, as shown in Fig. 10.
+.. image:: img/9_full_wave_rectifier_schematicRP.png
+	:name: experiment 1 explanation
+	:align: center
 
-.. image:: vertopal_731800f41f7745ee952b5f4e35d32883/media/image11.png
-   :alt: Graphical user interface Description automatically generated
-   with medium confidence
-   :width: 1.18395in
-   :height: 2in
+So this is actually just a half bridge rectifier with a short circuit to ground when input is negative...  Wait, does that mean that what I told you about expected voltage drop being 1.4 V was wrong? Yes, but I wanted to share a glimpse into how troubleshooting works. Find an explanation and work with it until you can prove it doesn’t work.
+What happens if you don’t connect a grounding clip can be considered your optional homework, because solution lies elsewhere and I don’t want to drag this article too long.
 
-Fig. 10: OUT1 Configured for SQUARE output
-
-1. Capture a screen shot of the resulting waveforms. Comment on and visible similarities or differences.
-
-2. (Take Home) Try varying amplitudes/frequencies/phases of both channels and comment on the overall effects each variable does as observed 
-   in the time domain. Capture a screen capture that demonstrates each observable change, and clearly label what change was done between 
-   each channel. For any parameters that do not produce visible changes, comment on why you believe this is so.
-
-   a. Amplitude:
-
-   b. Frequency:
-
-   c. Phase:
-
-Sine and Sawtooth
---------------------
-
-With the same setup as ‎‎2.5.1, change OUT1 to produce a SAWU, as shown in Fig. 11.
-
-.. image:: vertopal_731800f41f7745ee952b5f4e35d32883/media/image12.png
-   :width: 1.18812in
-   :height: 2in
-
-Fig. 11: OUT1 Configured for SAWU output
-
-1. Capture a screen shot of the resulting waveforms. Comment on any visible similarities or differences.
-
-2. (Take Home) Try varying amplitudes/frequencies/phases of both channels and comment on the overall effects each variable does as observed 
-   in the time domain. Capture a screen capture that demonstrates each observable change, and clearly label what change was done between each channel. 
-   For any parameters that do not produce visible changes, comment on why you believe this is so.
-
-   a. Amplitude:
-
-   b. Frequency:
-
-   c. Phase:
-
-(Take Home) Sine and Pulse Width Modulated (PWM) output
-----------------------------
-
-With the same setup as ‎‎2.5.1, change OUT1 to produce a PWM with a 10% duty cycle, as shown in Fig. 12.
-
-.. image:: vertopal_731800f41f7745ee952b5f4e35d32883/media/image13.png
-   :width: 1.18367in
-   :height: 2in
-
-Fig. 12: OUT 1 configured for PWM output
-
-1. Capture a screen shot of the resulting waveforms. Comment on any visible similarities or differences.
-
-2. (Take Home) Try varying amplitudes/frequencies/phases of both channels and comment on the overall effects each variable does as observed in the
-   frequency domain. Capture a screen capture that demonstrates each observable change, and clearly label what change was done between each channel. 
-   For any parameters that do not produce visible changes, comment on why you believe this is so.
-
-   a. Amplitude:
-
-   b. Frequency:
-
-   c. Phase:
-
-   d. Duty Cycle:
-
-Comparing Waveforms in Frequency Domain
----------------------------------------
-
-Configure the Red Pitaya for a Loopback configuration (SMA cables tied between the outputs and inputs to the Red Pitaya) as shown in Fig. 1. 
-Open the DFT Spectrum Analyzer application. **This portion is equivalent to viewing all the waveforms in part ‎2.5 in the Frequency Domain.**
-
-Reference Case: Sine and Cosine
---------------------------
-
-Set OUT1 and OUT2 to be sines of the same frequency of 1000Hz, with equal amplitude. Set OUT2 to have a phase of 90 degrees, as shown in Fig. 9.
-
-1. Capture a screen shot of the resulting spectrums/spectrograms. Comment on any visible similarities or differences.
-
-2. Try varying amplitudes/frequencies/phases of both channels and comment on the overall effects each variable does as observed in the frequency
-   domain. Capture a screen capture that demonstrates each observable change, and clearly label what change was done between each.
-
-3. (Take Home) Drop the amplitude of OUT2 to 0.45 V (0.5x amplitude). How much do the peaks corresponding to this waveform shift by in dBm?
-
-
-Sine and Square
+A transformer.
 -------------------
+There are only a few devices that require rectified mains voltage to operate. Usually required voltage is a lot lower. A low cost solution is to use a transformer with an appropriate winding ratio.
+A transformer outputs voltage that is higher, lower, or equal to the input voltage based on how many turns input and output windings have. The exact relation is such:
 
-With the same setup as ‎‎2.5.1, change OUT1 to produce a SQUARE, as shown in Fig. 10.
+	.. math:: U_{OUT}=\frac{N_OUT}{N_IN}  U_IN
 
-1. Capture a screen shot of the resulting spectrums/spectrograms. Comment on any visible similarities or differences.
+Aside from changing the amplitude, a transformer also galvanically disconnects input and output. ADALP2000 component kit, from which we select components for this course, has two transformers in it. Both are from Coilcraft’s Hexa-Path series. They have six individual windings, from which we can construct “any” transformer we want. Biggest voltage ratio we can construct is 5:1 (or 1:5). This is done by selecting one coil to be input/output, and wiring the remaining five in series, paying attention on polarity (marked with a dot next to the inductor symbol. The following diagram is from the transformer’s `datasheet <https://www.coilcraft.com/getmedia/936400ae-3cbc-4381-aed1-ae101ef7a35e/hexa-path.pdf>`_
 
-2. (Take Home) Try varying amplitudes/frequencies/phases of both channels and comment on the overall effects each variable does as observed in 
-   the frequency domain. Capture a screen capture that demonstrates each observable change, and clearly label what change was done between each channel.
-   For any parameters that do not produce visible changes, comment on why you believe this is so.
+.. image:: img/9_transformer_schematic.png
+	:name: transformer schematic
+	:align: center
 
-   a. Amplitude:
+Consumer electronics usually use a transformer to convert mains voltage into something lower, but we will be using it in reverse: to change RP’s +-1 V output to +-5V. Here is input to the transformer in such configuration (yellow) Vs. output (green).
 
-   b. Frequency:
+.. image:: img/9_rectifier_transformer5-1_inverted_screencap.png
+	:name: transformer screencap
+	:align: center
 
-   c. Phase:
+A full wave rectifier with a transformer
+-----------------------------------------------
+With all that said, let’s construct such circuit:
 
-Sine and Sawtooth
----------------------
+.. image:: img/9_full_wave_transformer_rectifier_schematic.png
+	:name: full wave rectifier with a transformer
+	:align: center
 
-With the same setup as ‎‎2.5.1, change OUT1 to produce a SAWU, as shown in Fig. 11.
+Aside from the transformer, everything is exactly the same. Even those wires I called foreshadowing are in exact same spots. As if someone showed you exactly how to connect transformer’s windings to achieve 1:5 winding ratio… Anyway, here’s the setup:
 
-1. Capture a screen shot of the resulting spectrums/spectrograms. Comment on any visible similarities or differences.
+.. image:: img/9_with_transformer.jpg
+	:name: experiment 2
+	:align: center
 
-2. (Take Home) Try varying amplitudes/frequencies/phases of both channels and comment on the overall effects each variable does as observed in the
-   frequency domain. Capture a screen capture that demonstrates each observable change, and clearly label what change was done between each channel. 
-   For any parameters that do not produce visible changes, comment on why you believe this is so.
+Note that you have to set Red Pitaya’s signal generator to output a sine wave at a high enough frequency. Transformer’s inductance is very low in comparison to transformers used in household appliances, thus frequency has to be a lot higher. I found 100 kHz to work fine. Te transformer I used was HPH1-019L. Here is what I got:
 
-   a. Amplitude:
+.. image:: img/9_rectifier_transformer5-1_rectified_screencap.png
+	:name: experiment 2 screncap
+	:align: center
 
-   b. Frequency:
+All as expected. Rectified output’s peak voltage is 5x input minus two diode drops. But I opened this course up by talking about DC power supplies… this means I have to show you how to smooth this voltage!
 
-   c. Phase:
+A DC power supply
+-----------------------
+Let’s summarize what we now know how to make: We know how to change input AC voltage’s amplitude by any desired factor by selecting appropriate transformer coil winding ratios, and we know how to convert AC voltage to one that oscilates between 0 and :math:`V_{IN}-2 \cdot V_{DIODE}`. All that is left to do is to average this out. One way would be to use an RC filter. A great downside to this approach is that all current that a powered device consumes has to flow through the filter’s resistor. This leads to great power losses. A smarter solution is to use an LC filter, which behaves similar to two RC’s in series (I won’t go into details), where the L part is the transformer itself! Capacitor is wired between output’s + and – nodes. Depending on its capacitance, we get different results.
+Here is output voltage with a 10nF capacitor:
 
+.. image:: img/9_rectifier_transformer5-1_rectified_10n_screencap.png
+	:name: with 10nF smoothing capacitor
+	:align: center
 
-(Take Home) Sine and Pulse Width Modulated (PWM) output
---------------------------
+And here is one with a 47 uF capacitor:
 
-With the same setup as ‎‎2.5.1, change OUT1 to produce a PWM, as shown in Fig. 12.
+.. image:: img/9_rectifier_transformer5-1_rectified_47u_screencap.png
+	:name: with 47uF smoothing capacitor
+	:align: center
 
-1. Capture a screen shot of the resulting spectrums/spectrograms. Comment on any visible similarities or differences.
+We can clearly see that bigger capacitance leads to better smoothing. Another thing you can see is that input voltage’s shape gets distorted. That is because voltage source gets overloaded.
 
-2. (Take Home) Try varying amplitudes/frequencies/phases of both channels and comment on the overall effects each variable does as observed in the 
-   frequency domain. Capture a screen capture that demonstrates each observable change, and clearly label what change was done between each channel.
-   For any parameters that do not produce visible changes, comment on why you believe this is so.
+Conclusion
+----------------
+This concludes our quick intro to full wave rectifiers and their applications in simple and cheap power supplies. Note that output voltage of such power supply is unregulated. This means that an additional regulation is often needed. I encourage you to test how output voltage varies with different loads. Can you guess what would happen if load was removed completely? I hope you learned something.
 
-   a. Amplitude:
+Reference text
+==============
 
-   b. Frequency:
+For more in-depth documentation, view the official documentation at:
 
-   c. Phase:
+Oscilloscope:
+https://redpitaya.readthedocs.io/en/latest/appsFeatures/apps-featured/oscSigGen/osc.html
 
-   d. Duty Cycle:
+Spectrum Analyzer:
+https://redpitaya.readthedocs.io/en/latest/appsFeatures/apps-featured/spectrum/spectrum.html
 
+dB scale: 
+https://en.wikipedia.org/wiki/Decibel
