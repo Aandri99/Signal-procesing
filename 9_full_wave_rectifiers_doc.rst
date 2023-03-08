@@ -152,8 +152,13 @@ Reference Case: Sine and Cosine
 
 Set OUT1 and OUT2 to be sines of the same frequency of 1000Hz, with equal amplitude. Set OUT2 to have a phase of 90 degrees.
 
-|Graphical user interface Description automatically generated|\ |A screenshot of a phone Description automatically generated with medium
-confidence|
+.. image:: media/image9.png
+   :name: schematic of the circuit
+   :align: center
+   
+.. image:: media/image10.png
+   :name: schematic of the circuit
+   :align: center   
 
 Fig. 9: Reference waveforms
 
