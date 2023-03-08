@@ -80,7 +80,7 @@ to estimate the frequency of the waveform.
 Once again, the Red pitaya can also calculate this by selecting the “FREQ” measurement option in the “Meas” options as shown below.
 
 .. image:: media/image6.png
- :name: schematic of the circuit
+   :name: schematic of the circuit
    :align: center
 
 Fig. 6: Frequency Measurement added
@@ -90,17 +90,17 @@ Measure the Phase between two waveforms – Time Domain
 
 Select output 2, and select the second output to be a 1500 Hz sine wave with a 45 degree phase shift
 
-.. image:: vertopal_731800f41f7745ee952b5f4e35d32883/media/image7.png
-   :width: 1.19879in
-   :height: 2in
+.. image:: media/image7.png
+   :name: schematic of the circuit
+   :align: center
 
 Fig. 7: Second channel configuration
 
 Configure the trigger for a single shot acquisition as shown in Fig. 8.
 
-.. image:: vertopal_731800f41f7745ee952b5f4e35d32883/media/image8.png
-   :width: 1.12857in
-   :height: 2in
+.. image:: image8.png
+   :name: schematic of the circuit
+   :align: center
 
 Fig. 8: Trigger configuration
 
@@ -169,11 +169,9 @@ Sine and Square
 
 With the same setup as ‎‎2.5.1, change OUT1 to produce a SQUARE, as shown in Fig. 10.
 
-.. image:: vertopal_731800f41f7745ee952b5f4e35d32883/media/image11.png
-   :alt: Graphical user interface Description automatically generated
-   with medium confidence
-   :width: 1.18395in
-   :height: 2in
+.. image:: media/image11.png
+   :name: schematic of the circuit
+   :align: center
 
 Fig. 10: OUT1 Configured for SQUARE output
 
@@ -194,11 +192,10 @@ Sine and Sawtooth
 
 With the same setup as ‎‎2.5.1, change OUT1 to produce a SAWU, as shown in Fig. 11.
 
-.. image:: vertopal_731800f41f7745ee952b5f4e35d32883/media/image12.png
-   :alt: Graphical user interface Description automatically generated
-   :width: 1.18812in
-   :height: 2in
-
+.. image:: media/image12.png
+   :name: schematic of the circuit
+   :align: center
+   
 Fig. 11: OUT1 Configured for SAWU output
 
 1. Capture a screen shot of the resulting waveforms. Comment on any visible similarities or differences.
@@ -257,9 +254,9 @@ https://redpitaya.readthedocs.io/en/latest/appsFeatures/apps-featured/spectrum/s
 dB scale: 
 https://en.wikipedia.org/wiki/Decibel
 
-.. |Graphical user interface Description automatically generated| image:: vertopal_731800f41f7745ee952b5f4e35d32883/media/image9.png
-   :width: 1.22517in
-   :height: 2in
-.. |A screenshot of a phone Description automatically generated with medium confidence| image:: vertopal_731800f41f7745ee952b5f4e35d32883/media/image10.png
-   :width: 1.17608in
-   :height: 2in
+.. image:: media/image9.png
+      :name: schematic of the circuit
+   :align: center
+.. image:: media/image10.png
+      :name: schematic of the circuit
+   :align: center
