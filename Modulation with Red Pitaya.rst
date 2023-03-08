@@ -122,11 +122,11 @@ potential peaks of the carrier can be suppressed into a null. This
 parameter is not so important for this lab, but will be of interest to
 the analysis of communication systems in a future course.
 
-.. image:: vertopal_dfa93d2a29cf4ca38aede53df160d087/media/image1.png
-   :alt: Graphs illustrating how signal intelligibility increases with
+.. image:: graph(modulation).png
+  :name: Graphs illustrating how signal intelligibility increases with
    modulation index, but only up to 100% using standard AM.
-   :width: 2.39079in
-   :height: 3.30448in
+   :align: center
+ 
 
 Figure : Modulation Index visualized. Credit: Wikipedia
 (https://en.wikipedia.org/wiki/Amplitude_modulation#Modulation_index)
