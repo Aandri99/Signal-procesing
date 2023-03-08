@@ -123,8 +123,7 @@ parameter is not so important for this lab, but will be of interest to
 the analysis of communication systems in a future course.
 
 .. image:: graph(modulation).png
-  :name: Graphs illustrating how signal intelligibility increases with
-   modulation index, but only up to 100% using standard AM.
+  :name: Graphs illustrating how signal intelligibility increases
    :align: center
  
 
