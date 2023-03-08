@@ -195,7 +195,6 @@ Sine and Sawtooth
 With the same setup as ‎‎2.5.1, change OUT1 to produce a SAWU, as shown in Fig. 11.
 
 .. image:: vertopal_731800f41f7745ee952b5f4e35d32883/media/image12.png
-   :alt: Graphical user interface Description automatically generated
    :width: 1.18812in
    :height: 2in
 
@@ -219,8 +218,6 @@ Fig. 11: OUT1 Configured for SAWU output
 With the same setup as ‎‎2.5.1, change OUT1 to produce a PWM with a 10% duty cycle, as shown in Fig. 12.
 
 .. image:: vertopal_731800f41f7745ee952b5f4e35d32883/media/image13.png
-   :alt: Graphical user interface Description automatically generated
-   with low confidence
    :width: 1.18367in
    :height: 2in
 
@@ -313,34 +310,3 @@ With the same setup as ‎‎2.5.1, change OUT1 to produce a PWM, as shown in Fi
 
    d. Duty Cycle:
 
-Inferences to be made / Questions
-=================================
-
-1. From the previous sets of measurements what instrument(s) would you use to measure each of the following quantities:
-
-A. Amplitude:
-
-B. Frequency:
-
-C. Phase:
-
-Reference text
-==============
-
-For more in-depth documentation, view the official documentation at:
-
-Oscilloscope:
-https://redpitaya.readthedocs.io/en/latest/appsFeatures/apps-featured/oscSigGen/osc.html
-
-Spectrum Analyzer:
-https://redpitaya.readthedocs.io/en/latest/appsFeatures/apps-featured/spectrum/spectrum.html
-
-dB scale: 
-https://en.wikipedia.org/wiki/Decibel
-
-.. |Graphical user interface Description automatically generated| image:: vertopal_731800f41f7745ee952b5f4e35d32883/media/image9.png
-   :width: 1.22517in
-   :height: 2in
-.. |A screenshot of a phone Description automatically generated with medium confidence| image:: vertopal_731800f41f7745ee952b5f4e35d32883/media/image10.png
-   :width: 1.17608in
-   :height: 2in
