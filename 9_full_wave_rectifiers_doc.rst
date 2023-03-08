@@ -131,3 +131,10 @@ https://redpitaya.readthedocs.io/en/latest/appsFeatures/apps-featured/spectrum/s
 
 dB scale: 
 https://en.wikipedia.org/wiki/Decibel
+
+.. image:: media/image9.png
+   :width: 1.22517in
+   :height: 2in
+.. image:: media/image10.png
+   :width: 1.17608in
+   :height: 2in
