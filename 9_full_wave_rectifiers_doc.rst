@@ -133,8 +133,8 @@ dB scale:
 https://en.wikipedia.org/wiki/Decibel
 
 .. image:: media/image9.png
-   :width: 1.22517in
-   :height: 2in
+   :name: |Graphical user interface Description automatically generated|
+   :align: right
 .. image:: media/image10.png
-   :width: 1.17608in
-   :height: 2in
+   :name: |A screenshot of a phone Description automatically generated with medium confidence|
+   :align: left
