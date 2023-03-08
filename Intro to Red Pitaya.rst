@@ -15,7 +15,7 @@ Tasks / Measurements
 Configure the Red Pitaya for a Loopback configuration (SMA cables tied between the outputs and inputs to the Red Pitaya) as shown in Fig. 1.
 
 .. image:: media/image1.jpeg
-   :name: schematic of the circuit
+   :name: Red Pitaya in Loopback Configuration
    :align: center
 
 Fig. 1: Red Pitaya in Loopback Configuration
@@ -27,7 +27,7 @@ Open the Oscilloscope & function Generator Application.
 Configure the output of the red pitaya for a 1500Hz Sinusoid as shown in Fig. 2.
 
 .. image:: media/image2.png
-   :name: schematic of the circuit
+   :name: Configuration for measuring period/frequency
    :align: center
 
 Fig. 2: OUT1 Configuration for measuring period/frequency
@@ -35,7 +35,7 @@ Fig. 2: OUT1 Configuration for measuring period/frequency
 Configure the trigger for a negative edge trigger with zero level and normal trigger mode as shown in Fig. 3.
 
 .. image:: media/image3.png
-   :name: schematic of the circuit
+   :name: Trigger Configuration
    :align: center
   
 
@@ -44,7 +44,7 @@ Fig. 3: Trigger Configuration
 Enable OUT1. You should now see a figure close to the following
 
 .. image:: media/image4.png
-   :name: schematic of the circuit
+   :name:  Target output for 1500 Hz Sinusoid with negative edge triggering
    :align: center
 
 Fig. 4: Target output for 1500 Hz Sinusoid with negative edge triggering
@@ -61,7 +61,7 @@ Period can also be measured by the red pitaya itself, under the meas command by 
 This is shown in Fig. 5.
 
 .. image:: media/image5.png
- :name: schematic of the circuit
+ :name: Measured waveform vs Cursor measurement
    :align: center
 
 Fig. 5: Measured waveform vs Cursor measurement
@@ -80,7 +80,7 @@ to estimate the frequency of the waveform.
 Once again, the Red pitaya can also calculate this by selecting the “FREQ” measurement option in the “Meas” options as shown below.
 
 .. image:: media/image6.png
-   :name: schematic of the circuit
+   :name: Frequency Measurement added
    :align: center
 
 Fig. 6: Frequency Measurement added
@@ -91,7 +91,7 @@ Measure the Phase between two waveforms – Time Domain
 Select output 2, and select the second output to be a 1500 Hz sine wave with a 45 degree phase shift
 
 .. image:: media/image7.png
-   :name: schematic of the circuit
+   :name: Second channel configuration
    :align: center
 
 Fig. 7: Second channel configuration
@@ -99,7 +99,7 @@ Fig. 7: Second channel configuration
 Configure the trigger for a single shot acquisition as shown in Fig. 8.
 
 .. image:: media/image8.png
-   :name: schematic of the circuit
+   :name: Trigger configuration
    :align: center
 
 Fig. 8: Trigger configuration
@@ -153,11 +153,11 @@ Reference Case: Sine and Cosine
 Set OUT1 and OUT2 to be sines of the same frequency of 1000Hz, with equal amplitude. Set OUT2 to have a phase of 90 degrees.
 
 .. image:: media/image9.png
-   :name: schematic of the circuit
+   :name: Reference waveforms out1
    :align: center
    
 .. image:: media/image10.png
-   :name: schematic of the circuit
+   :name: Reference waveforms out2
    :align: center   
 
 Fig. 9: Reference waveforms
@@ -175,7 +175,7 @@ Sine and Square
 With the same setup as ‎‎2.5.1, change OUT1 to produce a SQUARE, as shown in Fig. 10.
 
 .. image:: media/image11.png
-   :name: schematic of the circuit
+   :name: Configured for SQUARE output
    :align: center
 
 Fig. 10: OUT1 Configured for SQUARE output
@@ -198,7 +198,7 @@ Sine and Sawtooth
 With the same setup as ‎‎2.5.1, change OUT1 to produce a SAWU, as shown in Fig. 11.
 
 .. image:: media/image12.png
-   :name: schematic of the circuit
+   :name: Configured for SAWU output
    :align: center
    
 Fig. 11: OUT1 Configured for SAWU output
