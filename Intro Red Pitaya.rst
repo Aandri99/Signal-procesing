@@ -15,7 +15,7 @@ Tasks / Measurements
 --------------------
 Configure the Red Pitaya for a Loopback configuration (SMA cables tied between the outputs and inputs to the Red Pitaya) as shown in Fig. 1.
 
-.. image:: vertopal_731800f41f7745ee952b5f4e35d32883/media/image1.jpeg
+.. image:: media/image1.jpeg
    :alt: A picture containing text, electronics Description
    automatically generated
    :width: 4.1149in
