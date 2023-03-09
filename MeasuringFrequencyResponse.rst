@@ -118,7 +118,7 @@ common, ground, or power supply nodes.
 Passives
 ~~~~~~~~
 
-.. image:: media/4.3.jpg
+.. image:: media/image4.3.jpg
    :width: 2.47158in
    :height: 3.15936in
 
