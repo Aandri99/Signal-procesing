@@ -117,9 +117,9 @@ confidence|\ |Chart, line chart Description automatically generated|
    b. Square wave outside of the filter bandwidth
 
 .. image:: media/image7.5.jpeg
-   :alt: Diagram Description automatically generated
-   :width: 4.26901in
-   :height: 2in
+	:name: Diagram Description automatically generated
+	:align: center
+
 
 Resonant Filter 
 ----------------
