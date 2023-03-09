@@ -118,14 +118,14 @@ common, ground, or power supply nodes.
 Passives
 ~~~~~~~~
 
-.. image:: media/image4.3.jpg
+.. image:: media/4.3.jpg
    :width: 2.47158in
    :height: 3.15936in
 
 Resistors
 ^^^^^^^^^
 
-.. image:: media/image4.4.jpg
+.. image:: media/4.4.jpg
    :width: 2.47083in
    :height: 0.35309in
 
@@ -139,7 +139,7 @@ the resistance to current flow. These are frequency independent devices.
 Capacitors
 ^^^^^^^^^^
 
-.. image:: media/image4.5.jpg
+.. image:: media/4.5.jpg
    :width: 1.765in
    :height: 1.32569in
 
@@ -155,7 +155,7 @@ have the impedance:
 Potentiometers
 ^^^^^^^^^^^^^^
 
-.. image:: media/image4.56.jpg
+.. image:: media/4.56.jpg
    :width: 2.08363in
    :height: 1.1637in
 
