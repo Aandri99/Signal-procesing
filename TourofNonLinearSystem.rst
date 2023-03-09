@@ -100,13 +100,8 @@ Half bridge rectifier
 Build the Single stage RC circuit shown in Fig. 2, with
 :math:`R = 10k\Omega`,\ :math:`D = 1N914`.
 
-.. image:: media/image5.4.pmg
-	:name: Spice
-	:align: center
-   
-.. image:: media/image5.5.jpeg
-	:name: BreadboardCircuit
-	:align: center   
+|Chart, timeline Description automatically generated|\ |image1|
+
 
 Fig. 2: (left) schematic of the single stage RC circuit, (right)
 implementation on breadboard
@@ -198,4 +193,9 @@ Respond to the following questions:
 1. Find the -3dB point in the circuit, and compare this value to the one
    you previously calculated.
 
-
+.. |Chart, timeline Description automatically generated| image:: media/image5.4.png
+   :width: 3.63563in
+   :height: 1.87841in
+.. |image1| image:: media/image5.5.jpeg
+   :width: 2.47222in
+   :height: 1.87746in
