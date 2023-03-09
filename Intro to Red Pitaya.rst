@@ -220,6 +220,10 @@ Fig. 11: OUT1 Configured for SAWU output
 
 With the same setup as ‎‎2.5.1, change OUT1 to produce a PWM, as shown in Fig. 12.
 
+.. image:: media/image1.13.png
+   :name: Configured for SAWU output
+   :align: center
+
 1. Capture a screen shot of the resulting spectrums/spectrograms. Comment on any visible similarities or differences.
 
 2. (Take Home) Try varying amplitudes/frequencies/phases of both channels and comment on the overall effects each variable does as observed in the 
