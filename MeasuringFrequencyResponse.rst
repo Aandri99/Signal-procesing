@@ -139,7 +139,7 @@ the resistance to current flow. These are frequency independent devices.
 Capacitors
 ^^^^^^^^^^
 
-.. image:: media/image4.3.jpeg
+.. image:: media/image4.5.jpeg
    :width: 1.765in
    :height: 1.32569in
 
@@ -155,7 +155,7 @@ have the impedance:
 Potentiometers
 ^^^^^^^^^^^^^^
 
-.. image:: media/image4.5.jpeg
+.. image:: media/image4.56.jpeg
    :width: 2.08363in
    :height: 1.1637in
 
@@ -180,7 +180,15 @@ Single stage RC circuit – 1
 Build the Single stage RC circuit shown in Fig. 2, with
 :math:`R = 10k\Omega`,\ :math:`C = 0.47\mu F`.
 
-|image1|\ |image2|
+.. image:: media/image4.7.jpeg
+   :alt: potentiometer circuit
+   :width: 4.13879in
+   :height: 2.32859in
+   
+.. image:: media/image4.8.jpeg
+   :alt: potentiometer circuit
+   :width: 4.13879in
+   :height: 2.32859in   
 
 Fig. 2: (left) schematic of the single stage RC circuit, (right)
 implementation on breadboard
@@ -228,7 +236,7 @@ response (:math:`\left| T(f) \right|`).
 
 ..
 
-   .. image:: media/image9.png
+   .. image:: media/image4.9.png
       :width: 5.024in
       :height: 1.78899in
 
@@ -237,7 +245,7 @@ response (:math:`\left| T(f) \right|`).
 
 2. Connect to the Red Pitaya and select the Bode Analyzer tool.
 
-.. image:: media/image10.png
+.. image:: media/image4.10.png
    :width: 4.5in
    :height: 2.6851in
 
@@ -246,7 +254,7 @@ response (:math:`\left| T(f) \right|`).
 
 3. Click on the settings box to access the sweep settings
 
-.. image:: media/image11.png
+.. image:: media/image4.11.png
    :width: 5in
    :height: 2.17846in
 
@@ -255,20 +263,20 @@ response (:math:`\left| T(f) \right|`).
 
 ..
 
-   .. image:: media/image12.png
+   .. image:: media/image4.12.png
       :width: 1.6882in
       :height: 2.51622in
 
 5. Click RUN – The sweep can take awhile to complete.
 
-.. image:: media/image13.png
+.. image:: media/image4.13.png
    :width: 5.25in
    :height: 2.22923in
 
 6. To export data: click the Export tab, and either select Graph for a
    PNG of the chart, or CSV for the raw CSV data of the plot.
 
-.. image:: media/image14.png
+.. image:: media/image4.14.png
    :width: 5.25in
    :height: 2.32615in
 
@@ -554,10 +562,10 @@ Respond to the following questions:
 4. Find the -3dB point in the circuit, and compare this value to the one
    you previously calculated.
 
-.. |image1| image:: media/image7.png
+.. |image1| image:: media/image4.7.png
    :width: 3.22747in
    :height: 1.84427in
-.. |image2| image:: media/image8.jpeg
+.. |image2| image:: media/image4.8.jpeg
    :width: 3.00853in
    :height: 1.4635in
 .. |image3| image:: media/image15.png
