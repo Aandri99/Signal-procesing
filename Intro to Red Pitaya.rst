@@ -223,6 +223,7 @@ With the same setup as ‎‎2.5.1, change OUT1 to produce a PWM, as shown in Fi
 .. image:: media/image1.13.png
    :name: Configured for SAWU output
    :align: center
+Fig.  12: OUT 1 configured for PWM output
 
 1. Capture a screen shot of the resulting spectrums/spectrograms. Comment on any visible similarities or differences.
 
