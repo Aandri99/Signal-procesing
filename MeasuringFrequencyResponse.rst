@@ -104,8 +104,8 @@ Breadboards
 ~~~~~~~~~~~
 
 .. image:: media/image4.2.png
-   :width: 2.61659in
-   :height: 2.08164in
+	:name: Breadboard
+	:align: center
 
 Bread boards are arrays of metal contacts internally tied together on a
 row wise basis (a,b,c,d,e) that are electrically separated on the
@@ -119,15 +119,15 @@ Passives
 ~~~~~~~~
 
 .. image:: media/image4.3.jpg
-   :width: 2.47158in
-   :height: 3.15936in
+	:name: components
+	:align: center
 
 Resistors
 ^^^^^^^^^
 
 .. image:: media/4.4.jpg
-   :width: 2.47083in
-   :height: 0.35309in
+	:name: Resistors
+	:align: center
 
 Resistors are a general element that obey Ohm’s law:
 
@@ -140,8 +140,8 @@ Capacitors
 ^^^^^^^^^^
 
 .. image:: media/4.5.jpg
-   :width: 1.765in
-   :height: 1.32569in
+	:name: Capacitors
+	:align: center
 
 Capacitors have the Current-voltage relation:
 
@@ -156,8 +156,8 @@ Potentiometers
 ^^^^^^^^^^^^^^
 
 .. image:: media/4.56.jpg
-   :width: 2.08363in
-   :height: 1.1637in
+	:name: Potentiometer
+	:align: center
 
 Potentiometers are three terminal devices consist of a resistor and a
 sliding contact that effectively breaks the resistor into two separate
@@ -181,14 +181,12 @@ Build the Single stage RC circuit shown in Fig. 2, with
 :math:`R = 10k\Omega`,\ :math:`C = 0.47\mu F`.
 
 .. image:: media/image4.7.png
-   :alt: potentiometer circuit
-   :width: 4.13879in
-   :height: 2.32859in
+	:name: SpiceCircuit
+	:align: center
    
 .. image:: media/image4.8.jpeg
-   :alt: potentiometer circuit
-   :width: 4.13879in
-   :height: 2.32859in   
+	:name: Breadboardcircuit
+	:align: center  
 
 Fig. 2: (left) schematic of the single stage RC circuit, (right)
 implementation on breadboard
@@ -235,14 +233,13 @@ response (:math:`\left| T(f) \right|`).
    Test (DUT)), as shown below
 
 .. image:: media/image4.9.png
-   :alt: potentiometer circuit
-   :width: 4.13879in
-   :height: 2.32859in   
+	:name: PitayaSchematic
+	:align: center
    
 
 .. image:: media/image4.9.png
-   :width: 4.5in
-   :height: 2.6851in
+	:name: PitayaSchematic
+	:align: center
 
    (from :
    https://redpitaya.readthedocs.io/en/latest/appsFeatures/apps-featured/bode/bode.html)
@@ -250,13 +247,12 @@ response (:math:`\left| T(f) \right|`).
 2. Connect to the Red Pitaya and select the Bode Analyzer tool.
 
 .. image:: media/image4.10.png
-   :alt: potentiometer circuit
-   :width: 4.13879in
-   :height: 2.32859in   
+	:name: Menu
+	:align: center
    
 .. image:: media/image4.10.png
-   :width: 4.5in
-   :height: 2.6851in
+	:name: Menu
+	:align: center
 
    A more detailed description of the Bode analyzer can be found here:
    https://redpitaya.readthedocs.io/en/latest/appsFeatures/apps-featured/bode/bode.html
@@ -264,29 +260,29 @@ response (:math:`\left| T(f) \right|`).
 3. Click on the settings box to access the sweep settings
 
 .. image:: media/image4.11.png
-   :width: 5in
-   :height: 2.17846in
+	:name: settings1
+	:align: center
 
 4. Configure the settings as shown below, we will find new sweep values
    as we go on, but these should be safe values to try
 
 
    .. image:: media/image4.12.png
-      :width: 1.6882in
-      :height: 2.51622in
+	:name: settings2
+	:align: center
 
 5. Click RUN – The sweep can take awhile to complete.
 
 .. image:: media/image4.13.png
-   :width: 5.25in
-   :height: 2.22923in
+	:name: settings3
+	:align: center
 
 6. To export data: click the Export tab, and either select Graph for a
    PNG of the chart, or CSV for the raw CSV data of the plot.
 
 .. image:: media/image4.14.png
-   :width: 5.25in
-   :height: 2.32615in
+	:name: settingsexport
+	:align: center
 
 1. Show the plot of the measurement below:
 
@@ -307,7 +303,13 @@ Single stage RC circuit – 2
 Build the Single stage RC circuit shown in Fig. 3, with
 :math:`R = 10k\Omega`,\ :math:`C = 0.47\mu F`.
 
-|image3|\ |image4|
+.. image:: media/image4.15.png
+	:name: Spice2
+	:align: center
+	
+.. image:: media/image4.16.jpeg
+	:name: BredboardCircuit2
+	:align: center	
 
 Fig. 3: (left) schematic of the single stage RC circuit, (right)
 implementation on breadboard
@@ -367,8 +369,13 @@ potentiometer and :math:`C = 4.7nF`. Use another resistor to provide
 electrical contact. Ensure that the potentiometer pins used are the two
 furthest pins, as this will be the total resistance of the device.
 
-|image5|\ |image6|
-
+.. image:: media/image4.17.png
+	:name: Spice3
+	:align: center
+.. image:: media/image4.18.jpeg
+	:name: BreadboardCircuit3
+	:align: center
+	
 Fig. 4: (left) schematic of the single stage RC circuit, (right)
 implementation on breadboard
 
@@ -448,7 +455,12 @@ Cascading filters – Repeated stages
 Build the RC circuit shown in below, with
 :math:`R_{1} = R_{2} = 10k\Omega`,\ :math:`\ C_{1} = C_{2} = 4.7nF`.
 
-|image7|\ |image8|
+.. image:: media/image4.19.png
+	:name: Spice4
+	:align: center
+.. image:: media/image4.20.jpeg
+	:name: BreadboardCircuit
+	:align: center	
 
 Fig. 5: (left) schematic of the single stage RC circuit, (right)
 implementation on breadboard
@@ -514,8 +526,13 @@ Build the filter shown below, with :math:`R_{1}` using the potentiometer
 as constant resistance. Once again, use the other 10K resistor as an
 electrical contact.
 
-|image9| |image10|
-
+.. image:: media/image4.21.png
+	:name: Spice4
+	:align: center
+.. image:: media/image4.22.jpeg
+	:name: BreadboardCircuti4
+	:align: center
+	
 Fig. 6: (left) schematic of the single stage RC circuit, (right)
 implementation on breadboard
 
@@ -570,33 +587,3 @@ Respond to the following questions:
 4. Find the -3dB point in the circuit, and compare this value to the one
    you previously calculated.
 
-.. |image1| image:: media/image4.7.png
-   :width: 3.22747in
-   :height: 1.84427in
-.. |image2| image:: media/image4.8.jpeg
-   :width: 3.00853in
-   :height: 1.4635in
-.. |image3| image:: media/image15.png
-   :width: 3.4in
-   :height: 1.88559in
-.. |image4| image:: media/image16.jpeg
-   :width: 1.75989in
-   :height: 1.94829in
-.. |image5| image:: media/image17.png
-   :width: 4.05505in
-   :height: 2.03768in
-.. |image6| image:: media/image18.jpeg
-   :width: 2.00685in
-   :height: 2.03983in
-.. |image7| image:: media/image19.png
-   :width: 3.43053in
-   :height: 1.56164in
-.. |image8| image:: media/image20.jpeg
-   :width: 2.8757in
-   :height: 1.35974in
-.. |image9| image:: media/image21.png
-   :width: 3.74537in
-   :height: 1.71202in
-.. |image10| image:: media/image22.jpeg
-   :width: 2.57323in
-   :height: 1.95064in
