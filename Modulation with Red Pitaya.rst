@@ -122,7 +122,7 @@ potential peaks of the carrier can be suppressed into a null. This
 parameter is not so important for this lab, but will be of interest to
 the analysis of communication systems in a future course.
 
-.. image:: media/graph(modulation).png
+.. image:: media/image3.1.png
    :name: Graph
    :align: center
  
