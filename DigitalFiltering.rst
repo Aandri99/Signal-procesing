@@ -273,6 +273,6 @@ Analysis
    can be used to approximate integral operations. At what frequency
    does this filter do a passable job of implementing this operation?]
 
-.. |Diagram Description automatically generated| image:: vertopal_5c67bdca5cc54e9db94d7068c3a24d99/media/image1.png
+.. |Diagram Description automatically generated| image:: media/image6.1.png
    :width: 6.5in
    :height: 1.87014in
