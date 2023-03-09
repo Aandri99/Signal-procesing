@@ -180,7 +180,7 @@ Single stage RC circuit – 1
 Build the Single stage RC circuit shown in Fig. 2, with
 :math:`R = 10k\Omega`,\ :math:`C = 0.47\mu F`.
 
-.. image:: media/image4.7.jpeg
+.. image:: media/image4.7.png
    :alt: potentiometer circuit
    :width: 4.13879in
    :height: 2.32859in
@@ -234,11 +234,10 @@ response (:math:`\left| T(f) \right|`).
 1. Connect the Red Pitaya to the circuit, also known as the Device Under
    Test (DUT)), as shown below
 
-..
 
-   .. image:: media/image4.9.png
-      :width: 5.024in
-      :height: 1.78899in
+.. image:: media/image4.9.png
+   :width: 4.5in
+   :height: 2.6851in
 
    (from :
    https://redpitaya.readthedocs.io/en/latest/appsFeatures/apps-featured/bode/bode.html)
@@ -261,7 +260,6 @@ response (:math:`\left| T(f) \right|`).
 4. Configure the settings as shown below, we will find new sweep values
    as we go on, but these should be safe values to try
 
-..
 
    .. image:: media/image4.12.png
       :width: 1.6882in
