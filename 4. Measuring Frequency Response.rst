@@ -118,7 +118,7 @@ common, ground, or power supply nodes.
 Passives
 ~~~~~~~~
 
-.. image:: media/image4.3.jpg
+.. image:: media/4.3.jpg
 	:name: components
 	:align: center
 
