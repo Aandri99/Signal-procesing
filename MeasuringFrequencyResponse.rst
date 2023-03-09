@@ -103,7 +103,7 @@ A quick introduction to Breadboards and Passive components
 Breadboards
 ~~~~~~~~~~~
 
-.. image:: vertopal_3d0ff744a19f45568dd829bdaf24b0bd/media/image2.png
+.. image:: media/image4.2.png
    :width: 2.61659in
    :height: 2.08164in
 
@@ -118,14 +118,14 @@ common, ground, or power supply nodes.
 Passives
 ~~~~~~~~
 
-.. image:: vertopal_3d0ff744a19f45568dd829bdaf24b0bd/media/image3.jpeg
+.. image:: media/image4.3.jpeg
    :width: 2.47158in
    :height: 3.15936in
 
 Resistors
 ^^^^^^^^^
 
-.. image:: vertopal_3d0ff744a19f45568dd829bdaf24b0bd/media/image4.jpeg
+.. image:: media/image4.4.jpeg
    :width: 2.47083in
    :height: 0.35309in
 
@@ -139,7 +139,7 @@ the resistance to current flow. These are frequency independent devices.
 Capacitors
 ^^^^^^^^^^
 
-.. image:: vertopal_3d0ff744a19f45568dd829bdaf24b0bd/media/image3.jpeg
+.. image:: media/image4.3.jpeg
    :width: 1.765in
    :height: 1.32569in
 
@@ -155,7 +155,7 @@ have the impedance:
 Potentiometers
 ^^^^^^^^^^^^^^
 
-.. image:: vertopal_3d0ff744a19f45568dd829bdaf24b0bd/media/image5.jpeg
+.. image:: media/image4.5.jpeg
    :width: 2.08363in
    :height: 1.1637in
 
@@ -164,7 +164,7 @@ sliding contact that effectively breaks the resistor into two separate
 resistances. Depending on the contact location, the proportion of the
 total potentiometer resistance is distributed to each branch.
 
-.. image:: vertopal_3d0ff744a19f45568dd829bdaf24b0bd/media/image6.jpeg
+.. image:: media/image4.6.jpeg
    :alt: potentiometer circuit
    :width: 4.13879in
    :height: 2.32859in
@@ -228,7 +228,7 @@ response (:math:`\left| T(f) \right|`).
 
 ..
 
-   .. image:: vertopal_3d0ff744a19f45568dd829bdaf24b0bd/media/image9.png
+   .. image:: media/image9.png
       :width: 5.024in
       :height: 1.78899in
 
@@ -237,7 +237,7 @@ response (:math:`\left| T(f) \right|`).
 
 2. Connect to the Red Pitaya and select the Bode Analyzer tool.
 
-.. image:: vertopal_3d0ff744a19f45568dd829bdaf24b0bd/media/image10.png
+.. image:: media/image10.png
    :width: 4.5in
    :height: 2.6851in
 
@@ -246,7 +246,7 @@ response (:math:`\left| T(f) \right|`).
 
 3. Click on the settings box to access the sweep settings
 
-.. image:: vertopal_3d0ff744a19f45568dd829bdaf24b0bd/media/image11.png
+.. image:: media/image11.png
    :width: 5in
    :height: 2.17846in
 
@@ -255,20 +255,20 @@ response (:math:`\left| T(f) \right|`).
 
 ..
 
-   .. image:: vertopal_3d0ff744a19f45568dd829bdaf24b0bd/media/image12.png
+   .. image:: media/image12.png
       :width: 1.6882in
       :height: 2.51622in
 
 5. Click RUN – The sweep can take awhile to complete.
 
-.. image:: vertopal_3d0ff744a19f45568dd829bdaf24b0bd/media/image13.png
+.. image:: media/image13.png
    :width: 5.25in
    :height: 2.22923in
 
 6. To export data: click the Export tab, and either select Graph for a
    PNG of the chart, or CSV for the raw CSV data of the plot.
 
-.. image:: vertopal_3d0ff744a19f45568dd829bdaf24b0bd/media/image14.png
+.. image:: media/image14.png
    :width: 5.25in
    :height: 2.32615in
 
@@ -554,33 +554,33 @@ Respond to the following questions:
 4. Find the -3dB point in the circuit, and compare this value to the one
    you previously calculated.
 
-.. |image1| image:: vertopal_3d0ff744a19f45568dd829bdaf24b0bd/media/image7.png
+.. |image1| image:: media/image7.png
    :width: 3.22747in
    :height: 1.84427in
-.. |image2| image:: vertopal_3d0ff744a19f45568dd829bdaf24b0bd/media/image8.jpeg
+.. |image2| image:: media/image8.jpeg
    :width: 3.00853in
    :height: 1.4635in
-.. |image3| image:: vertopal_3d0ff744a19f45568dd829bdaf24b0bd/media/image15.png
+.. |image3| image:: media/image15.png
    :width: 3.4in
    :height: 1.88559in
-.. |image4| image:: vertopal_3d0ff744a19f45568dd829bdaf24b0bd/media/image16.jpeg
+.. |image4| image:: media/image16.jpeg
    :width: 1.75989in
    :height: 1.94829in
-.. |image5| image:: vertopal_3d0ff744a19f45568dd829bdaf24b0bd/media/image17.png
+.. |image5| image:: media/image17.png
    :width: 4.05505in
    :height: 2.03768in
-.. |image6| image:: vertopal_3d0ff744a19f45568dd829bdaf24b0bd/media/image18.jpeg
+.. |image6| image:: media/image18.jpeg
    :width: 2.00685in
    :height: 2.03983in
-.. |image7| image:: vertopal_3d0ff744a19f45568dd829bdaf24b0bd/media/image19.png
+.. |image7| image:: media/image19.png
    :width: 3.43053in
    :height: 1.56164in
-.. |image8| image:: vertopal_3d0ff744a19f45568dd829bdaf24b0bd/media/image20.jpeg
+.. |image8| image:: media/image20.jpeg
    :width: 2.8757in
    :height: 1.35974in
-.. |image9| image:: vertopal_3d0ff744a19f45568dd829bdaf24b0bd/media/image21.png
+.. |image9| image:: media/image21.png
    :width: 3.74537in
    :height: 1.71202in
-.. |image10| image:: vertopal_3d0ff744a19f45568dd829bdaf24b0bd/media/image22.jpeg
+.. |image10| image:: media/image22.jpeg
    :width: 2.57323in
    :height: 1.95064in
