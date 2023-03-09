@@ -108,9 +108,11 @@ confidence|\ |Chart, line chart Description automatically generated|
 
    a. Square wave within the filter bandwidth
 
- .. image:: media/image7.4.jpeg
-         :width: 3.98253in
-         :height: 2in
+
+.. image:: media/image7.4.jpeg
+   :alt: PitayaScreenshotSquareWave
+   :width: 4.26901in
+   :height: 2in
 
    b. Square wave outside of the filter bandwidth
 
@@ -259,7 +261,6 @@ Enter the previously calculated transfer function into the Red Pitaya.
 
    a. Square wave within the filter bandwidth
 
-..
 
    .. image:: media/image7.12.jpeg
       :width: 6.49028in
@@ -267,9 +268,9 @@ Enter the previously calculated transfer function into the Red Pitaya.
 
 b. Square wave outside of the filter bandwidth
 
-.. image:: image7.13.jpeg
-   :width: 6.49028in
-   :height: 3.04306in
+.. image:: media/image7.13.jpeg
+	:name: inverting schmitt screencap
+	:align: center
       
 
 .. |Diagram Description automatically generated| image:: media/image7.1.png
