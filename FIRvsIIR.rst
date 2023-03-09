@@ -108,13 +108,13 @@ confidence|\ |Chart, line chart Description automatically generated|
 
    a. Square wave within the filter bandwidth
 
-   b. .. image:: vertopal_363226c6264d4ffbad141e94e8c3d3f7/media/image4.jpeg
+ .. image:: media/image7.4.jpeg
          :width: 3.98253in
          :height: 2in
 
-   c. Square wave outside of the filter bandwidth
+   b. Square wave outside of the filter bandwidth
 
-.. image:: vertopal_363226c6264d4ffbad141e94e8c3d3f7/media/image5.jpeg
+.. image:: media/image7.5.jpeg
    :alt: Diagram Description automatically generated
    :width: 4.26901in
    :height: 2in
@@ -177,12 +177,12 @@ and that and that :math:`a_{0},a_{N} = 1` and
 1. Plot the frequency response of this filter when entered into the red
    pitaya LTI workbench.
 
-.. image:: vertopal_363226c6264d4ffbad141e94e8c3d3f7/media/image6.png
+.. image:: media/image7.6.png
    :alt: Chart Description automatically generated
    :width: 6.5in
    :height: 3.25in
 
-.. image:: vertopal_363226c6264d4ffbad141e94e8c3d3f7/media/image7.png
+.. image:: media/image7.7.png
    :alt: Chart, line chart Description automatically generated
    :width: 6.5in
    :height: 4.95764in
@@ -193,14 +193,14 @@ and that and that :math:`a_{0},a_{N} = 1` and
 
 ..
 
-   .. image:: vertopal_363226c6264d4ffbad141e94e8c3d3f7/media/image8.png
+   .. image:: media/image7.8.png
       :alt: Chart Description automatically generated
       :width: 4.5426in
       :height: 2.47222in
 
 b. Step Response of the filter outside of the resonance
 
-.. image:: vertopal_363226c6264d4ffbad141e94e8c3d3f7/media/image9.jpeg
+.. image:: media/image7.9.jpeg
    :width: 6.49028in
    :height: 3.04306in
 
@@ -245,12 +245,12 @@ Enter the previously calculated transfer function into the Red Pitaya.
 
 1. Plot the frequency response of this filter
 
-.. image:: vertopal_363226c6264d4ffbad141e94e8c3d3f7/media/image10.png
+.. image:: media/image7.10.png
    :alt: Chart, line chart Description automatically generated
    :width: 6.5in
    :height: 3.32361in
 
-.. image:: vertopal_363226c6264d4ffbad141e94e8c3d3f7/media/image11.png
+.. image:: media/image7.11.png
    :alt: Chart, line chart Description automatically generated
    :width: 6.5in
    :height: 5.07153in
@@ -261,22 +261,23 @@ Enter the previously calculated transfer function into the Red Pitaya.
 
 ..
 
-   .. image:: vertopal_363226c6264d4ffbad141e94e8c3d3f7/media/image12.jpeg
+   .. image:: media/image7.12.jpeg
       :width: 6.49028in
       :height: 3.04306in
 
 b. Square wave outside of the filter bandwidth
 
-.. image:: vertopal_363226c6264d4ffbad141e94e8c3d3f7/media/image13.jpeg
+.. image:: image7.13.jpeg
    :width: 6.49028in
    :height: 3.04306in
+      
 
-.. |Diagram Description automatically generated| image:: vertopal_363226c6264d4ffbad141e94e8c3d3f7/media/image1.png
+.. |Diagram Description automatically generated| image:: media/image7.1.png
    :width: 6.5in
    :height: 1.87014in
-.. |Chart Description automatically generated with medium confidence| image:: vertopal_363226c6264d4ffbad141e94e8c3d3f7/media/image2.png
+.. |Chart Description automatically generated with medium confidence| image:: media/image7.2.png
    :width: 1.96062in
    :height: 1.5in
-.. |Chart, line chart Description automatically generated| image:: vertopal_363226c6264d4ffbad141e94e8c3d3f7/media/image3.png
+.. |Chart, line chart Description automatically generated| image:: media/image7.3.png
    :width: 1.96997in
    :height: 1.5in
