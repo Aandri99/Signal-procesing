@@ -26,7 +26,7 @@ Open the Oscilloscope & function Generator Application.
 
 Configure the output of the red pitaya for a 1500Hz Sinusoid as shown in Fig. 2.
 
-.. image:: media/image1.02..png
+.. image:: media/image1.02.png
    :name: Configuration for measuring period/frequency
    :align: center
 
