@@ -526,7 +526,7 @@ Build the filter shown below, with :math:`R_{1}` using the potentiometer
 as constant resistance. Once again, use the other 10K resistor as an
 electrical contact.
 
-.. image:: media/image4.21.png
+.. image:: media/imageNewSpice.png
 	:name: Spice4
 	:align: center
 .. image:: media/image4.22.jpeg
