@@ -234,6 +234,11 @@ response (:math:`\left| T(f) \right|`).
 1. Connect the Red Pitaya to the circuit, also known as the Device Under
    Test (DUT)), as shown below
 
+.. image:: media/image4.9.png
+   :alt: potentiometer circuit
+   :width: 4.13879in
+   :height: 2.32859in   
+   
 
 .. image:: media/image4.9.png
    :width: 4.5in
@@ -244,6 +249,11 @@ response (:math:`\left| T(f) \right|`).
 
 2. Connect to the Red Pitaya and select the Bode Analyzer tool.
 
+.. image:: media/image4.10.png
+   :alt: potentiometer circuit
+   :width: 4.13879in
+   :height: 2.32859in   
+   
 .. image:: media/image4.10.png
    :width: 4.5in
    :height: 2.6851in
