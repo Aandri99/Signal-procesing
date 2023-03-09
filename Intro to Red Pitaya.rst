@@ -1,8 +1,9 @@
-Using the Red Pitaya for measuring properties of periodic waveforms
-===================
+============================================================================
+ECE2170: Using the Red Pitaya for measuring properties of periodic waveforms
+============================================================================
 
 Goals of this Lab
-----------------------
+=================
 1. Demonstrate ability to use Oscilloscope, Signal Generator, and Spectrum Analyzer capabilities of Red Pitaya through GUI.
 
 2. Configure Red pitaya to receive external inputs.
@@ -10,7 +11,7 @@ Goals of this Lab
 3. Perform measurements on a multitude of periodic waveforms
 
 Tasks / Measurements
------------------------
+====================
 
 Configure the Red Pitaya for a Loopback configuration (SMA cables tied between the outputs and inputs to the Red Pitaya) as shown in Fig. 1.
 
@@ -152,13 +153,11 @@ Reference Case: Sine and Cosine
 
 Set OUT1 and OUT2 to be sines of the same frequency of 1000Hz, with equal amplitude. Set OUT2 to have a phase of 90 degrees.
 
-.. image:: media/image1.09.png
-   :name: Reference waveforms out1
-   :align: center
-   
-.. image:: media/image1.10.png
-   :name: Reference waveforms out2
-   :align: center   
+
+|Graphical user interface Description automatically generated|\ |A
+screenshot of a phone Description automatically generated with medium
+confidence|
+
 
 Fig. 9: Reference waveforms
 
@@ -263,3 +262,11 @@ https://redpitaya.readthedocs.io/en/latest/appsFeatures/apps-featured/spectrum/s
 
 dB scale: 
 https://en.wikipedia.org/wiki/Decibel
+
+.. |Graphical user interface Description automatically generated| image:: media/image1.09.png
+   :width: 1.22517in
+   :height: 2in
+.. |A screenshot of a phone Description automatically generated with medium confidence| image:: media/image1.10.png
+   :width: 1.17608in
+   :height: 2in
+
