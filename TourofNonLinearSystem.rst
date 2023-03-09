@@ -43,9 +43,9 @@ For this lab, you will need:
 Connect the cables to the Red Pitaya via the adapters as shown in Fig.
 1, noting that we need IN1,IN2, and OUT1 connections.
 
-.. image:: vertopal_ac258636eef246488227bb4fe9d3fea9/media/image1.jpeg
-   :width: 2.22818in
-   :height: 2in
+.. image:: image5.1.jpeg
+	:name: Pitaya Setup
+	:align: center
 
 Fig. 1: Red Pitaya hardware configuration
 
@@ -79,18 +79,15 @@ diode symbol is shown below, and has an anode and cathode ends. This is
 reflected in the package by a stripe on the end of the package that
 mirrors the line in the diode symbol.
 
-.. image:: vertopal_ac258636eef246488227bb4fe9d3fea9/media/image2.png
-   :alt: A screenshot of a video game Description automatically
-   generated with medium confidence
-   :width: 4.31482in
-   :height: 2.04769in
+.. image:: media/image5.2.png
+	:name: Diodes symbol
+	:align: center
 
 (https://en.wikipedia.org/wiki/Diode#/media/File:Diode_pinout_en_fr.svg)
 
-.. image:: vertopal_ac258636eef246488227bb4fe9d3fea9/media/image3.jpeg
-   :alt: Text Description automatically generated with medium confidence
-   :width: 6.5in
-   :height: 1.25278in
+.. image:: media/image5.3.jpeg
+	:name: DiodePicture
+	:align: center
 
 1n914 diode with Cathode bar on right
 
@@ -103,7 +100,13 @@ Half bridge rectifier
 Build the Single stage RC circuit shown in Fig. 2, with
 :math:`R = 10k\Omega`,\ :math:`D = 1N914`.
 
-|Chart, timeline Description automatically generated|\ |image1|
+.. image:: media/image5.4.pmg
+	:name: Spice
+	:align: center
+   
+.. image:: media/image5.5.jpeg
+	:name: BreadboardCircuit
+	:align: center   
 
 Fig. 2: (left) schematic of the single stage RC circuit, (right)
 implementation on breadboard
@@ -195,9 +198,4 @@ Respond to the following questions:
 1. Find the -3dB point in the circuit, and compare this value to the one
    you previously calculated.
 
-.. |Chart, timeline Description automatically generated| image:: vertopal_ac258636eef246488227bb4fe9d3fea9/media/image4.png
-   :width: 3.63563in
-   :height: 1.87841in
-.. |image1| image:: vertopal_ac258636eef246488227bb4fe9d3fea9/media/image5.jpeg
-   :width: 2.47222in
-   :height: 1.87746in
+
