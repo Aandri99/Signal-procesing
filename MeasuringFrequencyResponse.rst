@@ -91,9 +91,9 @@ For this lab, you will need:
 Connect the cables to the Red Pitaya via the adapters as shown in Fig.
 1, noting that we need IN1,IN2, and OUT1 connections.
 
-.. image:: vertopal_3d0ff744a19f45568dd829bdaf24b0bd/media/image1.jpeg
-   :width: 2.22818in
-   :height: 2in
+.. image:: media/image4.1.jpeg
+	:name: Red Pitaya hardware configuration
+	:align: center
 
 Fig. 1: Red Pitaya hardware configuration
 
