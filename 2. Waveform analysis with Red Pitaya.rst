@@ -9,7 +9,7 @@ Goals:
 View external signals via the red pitaya, and identify various physical
 phenomena associated with discrete time systems.
 
-Tasks/Questions:
+Tasks and Questions:
 ================
 
 For these tasks, you will be viewing multiple waveforms with the Red
