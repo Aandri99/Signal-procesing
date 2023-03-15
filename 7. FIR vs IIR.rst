@@ -12,7 +12,7 @@ Observe the characteristic behaviors for Finite Impulse response (FIR) and Infin
 Background
 ==========
 
-LTI systems in the z-domain
+LTI systems in the Y-domain
 ---------------------------
 
 Reminder all discrete time LTI systems can be represented in a canonical
