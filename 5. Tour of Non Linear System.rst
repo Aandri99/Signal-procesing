@@ -1,5 +1,5 @@
 ========================================
-ECE2170: Brief tour of Nonlinear Systems
+ECE2170: Brief Tour of Nonlinear Systems
 ========================================
 
 
