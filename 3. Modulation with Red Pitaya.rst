@@ -63,7 +63,7 @@ modulated signal some phase :math:`\phi`.
    \end{matrix}\ \#(4) \\
    \end{matrix}
 
-Dual Side Band (DSB) modulation
+Dual Side Band (DSB) Modulation
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Employing the simplest mixing, we simply multiple the carrier (denoted
