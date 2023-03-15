@@ -10,7 +10,7 @@ Setup
 Background
 ----------
 
-LTI systems in the z-domain
+LTI systems in the Z-domain
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Reminder all discrete time LTI systems can be represented in a canonical
