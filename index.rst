@@ -1,9 +1,9 @@
 ######################
-Singal processing
+Signal processing
 ######################
 
 .. toctree::
-    :maxdepth: 2
-    :numbered:
+   :maxdepth: 2
     
-    ./signal-procesing/1. Intro to Red Pitaya.rst
+   ./Signal-procesing/1. Intro to Red Pitaya.rst
+   ./Signal-procesing/2. Waveform analysis with Red Pitaya.rst
